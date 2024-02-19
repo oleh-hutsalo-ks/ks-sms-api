@@ -1924,14 +1924,3 @@ components:
         lng:
           type: number
           description: Географічна довгота пристрою абонента
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      x-client-id: mock_client_id
-      x-client-secret: mock_client_secret
-      flows:
-        clientCredentials:
-          $ref: 'openapi-vars.yaml#/OAuthFlows/clientCredentials'
-      description: 'API КВТ використовує OAuth 2.0 з [Client credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/).
-      <br><br>Client ID та Client Secret можна знайти в <a href="https://api-market.kyivstar.ua" target="_blank">особистому кабінеті</a> на сторінці додатку.<br>
-      Використовуйте заповнені Client ID та Client Secret для мокового сервера'
