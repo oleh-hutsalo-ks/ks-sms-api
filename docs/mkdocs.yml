@@ -1,5 +1,6 @@
 site_name: 'example-docs'
 nav:
   - Home: index.md
+  - OpenApi: openapi.md
 plugins:
   - techdocs-core
