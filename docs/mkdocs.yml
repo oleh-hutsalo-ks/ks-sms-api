@@ -1,7 +1,0 @@
-site_name: 'example-docs'
-nav:
-  - Home: index.md
-  - OpenApi: openapi.md
-  - Other: other.md
-plugins:
-  - techdocs-core
