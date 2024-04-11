@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: ks-test-repo
   description: |
@@ -18,6 +18,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
+  type: openapi
   owner: kot
   lifecycle: experimental
+  definition:
+    $text: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
